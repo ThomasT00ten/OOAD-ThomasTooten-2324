@@ -30,7 +30,7 @@ namespace ConsoleComplexiteit
                 Console.WriteLine($"aantal karakters: {aantalLetters}");
 
             }
-            Console.ReadLine();
+            Console.ReadKey();
         }
 
         static bool IsKlinker(char letter)

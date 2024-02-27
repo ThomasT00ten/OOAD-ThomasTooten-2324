@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="WPFComplexiteit" Height="450" Width="800">
     <Grid>
-        
+        <TextBox HorizontalAlignment="Left" Height="66" Margin="102,67,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="227"/>
+
     </Grid>
 </Window>
