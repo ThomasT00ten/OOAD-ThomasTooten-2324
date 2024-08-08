@@ -127,7 +127,11 @@ namespace CLActiBuddy
             }
         }
 
-
+        //om de data juist weer te geven
+        public override string ToString()
+        {
+            return $"{Voornaam} {Achternaam}";
+        }
 
         public void DeleteFromDB()
         {

@@ -30,6 +30,8 @@ namespace WpfAdmin
             this.IngelogdeGebruiker = Persoon.GetById(gebruikerId);
             // Ingelogde gebuiker weergeven
             ToonGebruiker();
+            // bij het openen van het MainWindow wordt de pagina PagPersoenen standaard getoont.
+            FrInhoud.Content = new PagPersonen();
         }
 
         // De ingelogde gebuiker weergeven

@@ -61,6 +61,15 @@
     <Compile Include="PagPersonen.xaml.cs">
       <DependentUpon>PagPersonen.xaml</DependentUpon>
     </Compile>
+    <Compile Include="PagPersonenToevogen.xaml.cs">
+      <DependentUpon>PagPersonenToevogen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PagPersonenVerwijderen.xaml.cs">
+      <DependentUpon>PagPersonenVerwijderen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PagPersonenWijzigen.xaml.cs">
+      <DependentUpon>PagPersonenWijzigen.xaml</DependentUpon>
+    </Compile>
     <Compile Include="WinLogin.xaml.cs">
       <DependentUpon>WinLogin.xaml</DependentUpon>
     </Compile>
@@ -81,6 +90,18 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="PagPersonen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PagPersonenToevogen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PagPersonenVerwijderen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PagPersonenWijzigen.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
